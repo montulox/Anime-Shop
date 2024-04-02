@@ -1,0 +1,289 @@
+html{
+    box-sizing: border-box;
+}
+html *{
+    box-sizing: inherit;
+}
+body{
+    color: #000;
+    font-family: "Hachi Maru Pop", cursive;
+    line-height: normal;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+svg{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+button{
+    border: 1px transparent;
+    padding: 0;
+    font-family: inherit;
+    background-color: rgb(255, 166, 166)
+}
+span{
+    display: block;
+}
+
+header{
+    background-color: rgba(1, 200, 251, 0.62);
+    position: absolute;
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 1714px;
+}
+.header-menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 98px;
+}
+.header-menu-list {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    padding: 42px 0;
+}
+.header-menu-list-item {
+    font-size: 24px;
+}
+.header-menu-cart-svg{
+    width: 44px;
+    height: 44px;
+}
+.hero {
+    background: rgb(255,255,255);
+    background: url(/img/Miku.png)960px 395px no-repeat, url(/img/Zenitsu.png) 1370px 158px no-repeat, url(/img/sakura\ rotate.png)1310px 866px no-repeat, linear-gradient(180deg,
+    rgba(255,255,255,1) 0%,
+    rgba(255,255,255,1) calc(100% - 135px), 
+    rgba(110,200,251,0.62) calc(100% - 135px), 
+    rgba(110,200,251,0.62) 100%);
+    padding: 313px 0 394px;
+}
+.hero-title {
+    width: 1032px;
+    font-size: 64px;
+    margin-bottom: 74px;
+}
+.hero-btn {
+    background-color: rgb(255, 166, 166);
+    width: 344px;
+    height: 118px;
+    border-radius: 20px;
+    font-size: 32px;
+}
+.popular {
+    background: url(/img/sakura\ rotate.png) 1310px -311px no-repeat;
+    padding-top: 91px;
+    padding-bottom: 86px;
+}
+.popular-container-title {
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 88px;
+}
+.popular-container-list {
+    display: flex;
+    gap: 182px;
+    margin-bottom: 292px;
+}
+.popular-container-list-item {
+    border: 7px solid rgb(255, 166, 166);
+    width: 450px;
+    padding: 42px 59px;
+}
+.popular-container-list-item-name {
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+.popular-container-list-item-name-special{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.popular-container-list-item-flex{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 48px;
+}
+.popular-container-list-item-cart {
+    width: 50px;
+    height: 50px;
+}
+.popular-container-list-item-price {
+    font-size: 24px;
+    padding: auto 0;
+}
+.popular-container-list-item-flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular-container-list-item-buy{
+    font-size: 24px;
+    border-radius: 60px;
+    width: 216px;
+    height: 58px;
+}
+.popular-container-list-item-heart {
+    width: 48px;
+    height: 48px;
+}
+.popular-container-katalog{
+    width: 691px;
+    height: 118px;
+    border-radius: 20px;
+    font-size: 32px;
+    display: block;
+    margin-left: auto;
+}
+.inf{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    padding-bottom: 240px;
+    padding-top: 51px;
+}
+.inf-container-aboutUs {
+    font-family: "Hachi Maru Pop";
+    font-size: 64px;
+    text-align: center;
+    margin-bottom:64px ;
+}
+.inf-container-text{
+    margin-bottom: 48px;
+    line-height: 1,36;/* line-height/font-size */
+}
+.inf-container-delivery{
+    margin-bottom: 132px;
+    line-height: 49px;
+}
+.inf-container-moreInf-btn {
+    display: block;
+    font-family: "Hachi Maru Pop";
+    font-size: 32px;
+    width: 850px;
+    height: 118px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.popular_title{
+    padding-top:107px;
+
+}
+.popular_title-head{
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 127px;
+}
+.popular_title-example-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 189px;
+}
+.popular_title-example-list-img{
+    margin-bottom: 189px;
+    box-shadow: 5px 16px 25px rgba(0,0,0,15%) ;
+}
+.popular_title-name{
+    display: flex;
+    justify-content: center;
+    gap: 184px;
+    font-size: 48px;
+}
+
+.popular_title-name-wrap{
+    width: 693px;
+    height: 70px;
+    text-align: center;
+    padding-bottom: 168px;
+}
+footer{
+    background-color: rgba(110, 200, 251, 0.62);
+    font-family: "Open Sans", sans-serif;
+    padding-top: 49px;
+    padding-bottom: 70px;
+}
+#footer-h2{
+    font-size: 48px;
+}
+#footer-h3{
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.footer-mail {
+    font-family: "Hachi Maru Pop";
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 81px;
+}
+.footer-inf-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 57px;
+}
+.footer-inf-contacts-adres-name {
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+.footer-inf-contacts-adres-name2 {
+    font-size: 36px;
+    margin-bottom: 43px;
+}
+.footer-inf-aboutUs-sertificate{
+    font-size: 36px;
+}
+.footer-inf-sociale {
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+}
+.footer-inf-sociale-mastercard{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.footer-inf-sociale-mastercard-use{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-UserMail {
+    display: flex;
+    padding: 0 auto;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+.footer-UserMail-type{
+    background-color: #fff;
+    display: block;
+    padding: 0 auto;
+    width: 780px;
+    height: 100px;
+    font-size: 36px;
+}
+.footer-UserMail-type::placeholder{
+    text-align: center;
+}
+.footer-UserMail-send{
+    font-family: "Hachi Maru Pop";
+    width: 350px;
+    height: 100px;
+    font-size: 24px;
+}
+.footer-disclaimer-container {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-disclaimer-item {
+    font-size: 36px;
+}
