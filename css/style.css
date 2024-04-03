@@ -62,12 +62,22 @@ header{
 }
 .hero {
     background: rgb(255,255,255);
-    background: url(/img/Miku.png)960px 395px no-repeat, url(/img/Zenitsu.png) 1370px 158px no-repeat, url(/img/sakura\ rotate.png)1310px 866px no-repeat, linear-gradient(180deg,
+    background: url(/img/Miku.png)960px 395px no-repeat, url(/img/Zenitsu.png) 1370px 158px no-repeat, linear-gradient(180deg,
     rgba(255,255,255,1) 0%,
     rgba(255,255,255,1) calc(100% - 135px), 
     rgba(110,200,251,0.62) calc(100% - 135px), 
     rgba(110,200,251,0.62) 100%);
     padding: 313px 0 394px;
+}
+.hero::after{
+    content: '';
+    background-image: url(/img/sakura\ rotate.png);
+    width: 614px;
+    height: 356px;
+    position: absolute;
+    transform: rotate(195deg);
+    top: -70px;
+    left: -150px;
 }
 .hero-title {
     width: 1032px;
@@ -82,9 +92,19 @@ header{
     font-size: 32px;
 }
 .popular {
-    background: url(/img/sakura\ rotate.png) 1310px -311px no-repeat;
     padding-top: 91px;
     padding-bottom: 86px;
+    position: relative;
+}
+.popular::after{
+    content: '';
+    background-image: url(/img/sakura\ rotate.png);
+    width: 614px;
+    height: 356px;
+    position: absolute;
+    top: -329px;
+    right: -10px;
+    transform: rotate(-8deg);
 }
 .popular-container-title {
     font-size: 64px;
@@ -151,6 +171,18 @@ header{
     font-size: 36px;
     padding-bottom: 240px;
     padding-top: 51px;
+    position: relative;
+}
+
+.inf::after{
+    content: '';
+    background-image: url(/img/sakura\ rotate.png);
+    width: 614px;
+    height: 356px;
+    position: absolute;
+    transform: rotate(200deg);
+    left: -50px;
+    top: -130px;
 }
 .inf-container-aboutUs {
     font-family: "Hachi Maru Pop";
@@ -177,7 +209,17 @@ header{
 }
 .popular_title{
     padding-top:107px;
-
+    position: relative;
+}
+.popular_title::after{
+    content: '';
+    background-image: url(/img/sakura\ bot.png);
+    width: 614px;
+    height: 356px;
+    position: absolute;
+    top: -100px;
+    right: -140px;
+    transform: rotate(8deg);
 }
 .popular_title-head{
     text-align: center;
@@ -190,9 +232,19 @@ header{
     gap: 40px;
     margin-bottom: 189px;
 }
-.popular_title-example-list-img{
+.thumb{
     margin-bottom: 189px;
-    box-shadow: 5px 16px 25px rgba(0,0,0,15%) ;
+    box-shadow: 5px 16px 25px rgba(0,0,0,15%);
+    position: relative;
+}
+.thumb::after{
+    content: '';
+    background-color: #000;
+    width: 4px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 22px);
 }
 .popular_title-name{
     display: flex;
