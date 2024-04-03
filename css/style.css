@@ -62,7 +62,7 @@ header{
 }
 .hero {
     background: rgb(255,255,255);
-    background: url(/img/Miku.png)960px 395px no-repeat, url(/img/Zenitsu.png) 1370px 158px no-repeat, linear-gradient(180deg,
+    background: url(./img/Miku.png)960px 395px no-repeat, url(./img/Zenitsu.png) 1370px 158px no-repeat, linear-gradient(180deg,
     rgba(255,255,255,1) 0%,
     rgba(255,255,255,1) calc(100% - 135px), 
     rgba(110,200,251,0.62) calc(100% - 135px), 
@@ -71,7 +71,7 @@ header{
 }
 .hero::after{
     content: '';
-    background-image: url(/img/sakura\ rotate.png);
+    background-image: url(./img/sakura\ rotate.png);
     width: 614px;
     height: 356px;
     position: absolute;
@@ -98,7 +98,7 @@ header{
 }
 .popular::after{
     content: '';
-    background-image: url(/img/sakura\ rotate.png);
+    background-image: url(./img/sakura\ rotate.png);
     width: 614px;
     height: 356px;
     position: absolute;
@@ -176,7 +176,7 @@ header{
 
 .inf::after{
     content: '';
-    background-image: url(/img/sakura\ rotate.png);
+    background-image: url(./img/sakura\ rotate.png);
     width: 614px;
     height: 356px;
     position: absolute;
@@ -213,7 +213,7 @@ header{
 }
 .popular_title::after{
     content: '';
-    background-image: url(/img/sakura\ bot.png);
+    background-image: url(./img/sakura\ bot.png);
     width: 614px;
     height: 356px;
     position: absolute;
