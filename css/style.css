@@ -80,6 +80,7 @@ header{
     left: -150px;
 }
 .hero-title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
     width: 1032px;
     font-size: 64px;
     margin-bottom: 74px;
@@ -192,7 +193,7 @@ header{
 }
 .inf-container-text{
     margin-bottom: 48px;
-    line-height: 1,36;/* line-height/font-size */
+    line-height: 1,36;
 }
 .inf-container-delivery{
     margin-bottom: 132px;
@@ -206,6 +207,7 @@ header{
     height: 118px;
     margin: 0 auto;
     border-radius: 20px;
+    border: 2px transparent;
 }
 .popular_title{
     padding-top:107px;
@@ -318,10 +320,10 @@ footer{
 .footer-UserMail-type{
     background-color: #fff;
     display: block;
-    padding: 0 auto;
     width: 780px;
     height: 100px;
     font-size: 36px;
+    border: 1px solid transparent;
 }
 .footer-UserMail-type::placeholder{
     text-align: center;
