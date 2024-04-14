@@ -107,22 +107,16 @@ header {
     width: 44px;
     height: 44px;
 }
-
+.hero{
+    padding-top: 260px;
+    padding-bottom: 245px;
+}
 .popular-container-list {
     display: flex;
     gap: 182px;
     padding-bottom: 245px;
     position: relative;
 }
-
-.popular-container-list_first {
-    padding-top: 260px;
-}
-
-.popular-container-list_last {
-    padding-bottom: 245px;
-}
-
 .popular-container-list-item {
     border: 7px solid rgb(255, 166, 166);
     width: 450px;
