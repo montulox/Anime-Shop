@@ -114,7 +114,6 @@ header {
 .popular-container-list {
     display: flex;
     gap: 182px;
-    padding-bottom: 245px;
     position: relative;
 }
 .popular-container-list-item {
