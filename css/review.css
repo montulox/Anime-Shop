@@ -52,6 +52,10 @@ header {
   top: -80px;
   left: -160px;
 }
+.container_main{
+  padding-bottom: 170px;
+  padding-top: 182px;
+}
 .header-menu {
   display: flex;
   justify-content: end;
@@ -75,7 +79,6 @@ header {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  margin-top: 182px;
   margin-bottom: 100px;
 }
 .review-send__type {
@@ -199,7 +202,6 @@ footer{
   font-family: "Open Sans", sans-serif;
   padding-top: 49px;
   padding-bottom: 70px;
-  margin-top: 170px;
 }
 #footer-h2{
   font-size: 48px;

@@ -1,48 +1,57 @@
-html{
+html {
     box-sizing: border-box;
 }
-html *{
+
+html * {
     box-sizing: inherit;
 }
-body{
+
+body {
     color: #000;
     font-family: "Hachi Maru Pop", cursive;
     line-height: normal;
 }
-img{
+
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-svg{
+
+svg {
     display: block;
 }
-a{
+
+a {
     display: block;
     text-decoration: none;
     color: #000;
 }
-button{
+
+button {
     border: 1px transparent;
     padding: 0;
     font-family: inherit;
     background-color: rgb(255, 166, 166)
 }
-span{
+
+span {
     display: block;
 }
 
-header{
+header {
     background-color: rgba(1, 200, 251, 0.62);
     position: absolute;
     width: 100%;
     top: 0;
 }
+
 .container {
     margin: 0 auto;
-    width: 1520px;
+    width: 1714px;
 }
-.container::after{
+
+.container::after {
     content: '';
     background-image: url('../img/sakura-rotate.png');
     width: 614px;
@@ -52,152 +61,124 @@ header{
     top: -70px;
     left: -150px;
 }
-.header-menu-container{
+
+.header-menu-container {
     margin: 0 auto;
     width: 1714px;
 }
+
 .header-menu {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 98px;
 }
+
 .header-menu-list {
     display: flex;
     align-items: center;
     gap: 88px;
     padding: 42px 0;
 }
+
 .header-menu-list-item {
     font-size: 24px;
 }
-.header-menu-cart-svg{
+
+.header-menu-cart-svg {
     width: 44px;
     height: 44px;
 }
 .hero {
-    padding-top: 341px;
-    padding-bottom: 233px;
+    padding-top: 264px;
+    padding-bottom: 130px;
 }
-.title {
-    font-family: "Hachi Maru Pop";
-    font-size: 64px;
-    text-align: center;
-}
-.title_hero {
-    margin-bottom: 105px;
-}
-.hero__text {
-    font-family: "Open Sans";
-    font-size: 36px;
-    margin-bottom: 90px;
-}
-.hero__list {
-    display: flex;
-    gap: 320px;
-}
-.hero__item {
-    width: 600px;
-}
-.title_hero-list{
-    margin-bottom: 100px;
-}
-.hero__img {
-    width: 600px;
-    height: 800px;
-}
-.examples {
-    padding-top: 60px;
-    padding-bottom: 345px;
-}
-.title_examples {
-    margin-bottom: 180px;
-}
-.examples__list {
+.container_main {
     display: flex;
     flex-direction: column;
-    width: 1200px;
-    margin: 0 auto;
-
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
-.examples__item {
-    margin-bottom: 145px;
+.hero__item {
+    width: 620px;
+    height: 620px;
 }
-.examples__ite:last-child{
-    margin-bottom: 0px;
-}
-.example__item-name {
-    font-family: "Open Sans";
+.hero_title {
     font-size: 64px;
-    font-weight: 700;
-    margin-bottom: 80px;
-    text-align: center;
+    padding-top: 10px;
 }
-.examples_img {
-    width: 100%;
-    height: 100%;
+.hero__text {
+    font-size: 32px;
 }
-.container_footer{
-    margin: 0 auto;
-    width: 1714px;
-}
-footer{
+footer {
     background-color: rgba(110, 200, 251, 0.62);
     font-family: "Open Sans", sans-serif;
     padding-top: 49px;
     padding-bottom: 70px;
 }
-#footer-h2{
+
+#footer-h2 {
     font-size: 48px;
 }
-#footer-h3{
+
+#footer-h3 {
     font-size: 36px;
     margin-bottom: 16px;
 }
+
 .footer-mail {
     font-family: "Hachi Maru Pop";
     font-size: 48px;
     text-align: center;
     margin-bottom: 81px;
 }
+
 .footer-inf-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 57px;
 }
+
 .footer-inf-contacts-adres-name {
     font-size: 36px;
     padding-bottom: 0px;
 }
+
 .footer-inf-contacts-adres-name2 {
     font-size: 36px;
     margin-bottom: 43px;
 }
-.footer-inf-aboutUs-sertificate{
+
+.footer-inf-aboutUs-sertificate {
     font-size: 36px;
 }
+
 .footer-inf-sociale {
     display: flex;
     justify-content: center;
     gap: 68px;
 }
-.footer-inf-sociale-mastercard{
+
+.footer-inf-sociale-mastercard {
     width: 70px;
     height: 70px;
     margin: 0 auto;
 }
 
-.footer-inf-sociale-mastercard-use{
+.footer-inf-sociale-mastercard-use {
     text-align: center;
     margin: 0 auto;
 }
+
 .footer-UserMail {
     display: flex;
     padding: 0 auto;
     justify-content: center;
     margin-bottom: 81px;
 }
-.footer-UserMail-type{
+
+.footer-UserMail-type {
     background-color: #fff;
     display: block;
     width: 780px;
@@ -205,19 +186,23 @@ footer{
     font-size: 36px;
     border: 1px solid transparent;
 }
-.footer-UserMail-type::placeholder{
+
+.footer-UserMail-type::placeholder {
     text-align: center;
 }
-.footer-UserMail-send{
+
+.footer-UserMail-send {
     font-family: "Hachi Maru Pop";
     width: 350px;
     height: 100px;
     font-size: 24px;
 }
+
 .footer-disclaimer-container {
     display: flex;
     justify-content: space-around;
 }
+
 .footer-disclaimer-item {
     font-size: 36px;
 }
