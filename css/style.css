@@ -87,10 +87,13 @@ header{
 }
 .hero-btn {
     background-color: rgb(255, 166, 166);
+    display: flex;
     width: 344px;
     height: 118px;
     border-radius: 20px;
     font-size: 32px;
+    justify-content: center;
+    align-items: center;
 }
 .popular {
     padding-top: 91px;
@@ -162,9 +165,12 @@ header{
 .popular-container-katalog{
     width: 691px;
     height: 118px;
+    background-color: rgb(255, 166, 166);
     border-radius: 20px;
     font-size: 32px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
 }
 .inf{
@@ -200,7 +206,8 @@ header{
     line-height: 49px;
 }
 .inf-container-moreInf-btn {
-    display: block;
+    background-color: rgb(255, 166, 166);
+    display: flex;
     font-family: "Hachi Maru Pop";
     font-size: 32px;
     width: 850px;
@@ -208,6 +215,8 @@ header{
     margin: 0 auto;
     border-radius: 20px;
     border: 2px transparent;
+    justify-content: center;
+    align-items: center;
 }
 .popular_title{
     padding-top:107px;

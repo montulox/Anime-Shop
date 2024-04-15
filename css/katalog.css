@@ -70,6 +70,9 @@ header {
     right: -298px;
     top: -270px;
 }
+#ul3{
+    padding-bottom: 0px;
+}
 #ul3::after{
     content: '';
     background-image: url('../img/sakura-rotate.png');
@@ -115,6 +118,7 @@ header {
     display: flex;
     gap: 182px;
     position: relative;
+    padding-bottom: 245px;
 }
 .popular-container-list-item {
     border: 7px solid rgb(255, 166, 166);
